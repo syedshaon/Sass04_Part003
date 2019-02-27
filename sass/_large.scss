@@ -1,0 +1,40 @@
+/*  ------------- NAV -------------  */
+nav {
+	ul {
+		margin-left: 2%;
+		border-left: 1px solid rgba(0, 0, 0, 0.3);
+	}
+
+	ul li {
+		flex-basis: 12.5%;
+
+	}
+
+	// end li
+	ul li:last-child {
+		border-right: 1px solid rgba(0, 0, 0, 0.3);
+	}
+
+	ul li a {
+		padding: .5rem 1rem;
+	}
+
+	// and a
+}
+
+// end nav
+
+
+/*  ------------- MAIN -------------  */
+main {
+	.container1 div {
+		flex-basis: 33.33%-$gutterdbl;
+	}
+
+	.container2 figure {
+		padding: 1rem 2%;
+		flex-basis: 21%;
+	}
+}
+
+// end main

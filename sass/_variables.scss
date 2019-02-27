@@ -1,0 +1,15 @@
+$primaryColor: #302b27;
+$secondaryColor:#baa256;
+$fontColor: #dce2eb;
+
+$defaultFont: 'Lato',
+sans-serif;
+$normalWeight: 300;
+$boldWeight: 700;
+
+$gutter: 2%;
+$gutterdbl: (2 * $gutter);
+
+@mixin gradient($dir, $FCol, $SCol) {
+    background: linear-gradient(to $dir, $FCol 1%, $SCol 100%);
+}
